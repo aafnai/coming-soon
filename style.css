@@ -22,12 +22,11 @@ body {
   align-items: center;
 }
 .black-box {
-  border: 5px solid #65c8d0;
   width: 600px;
   height: 500px;
   border-radius: 15px;
   padding: 24px;
-  background-color: rgba(255, 255, 255, 0.8);
+  /* background-color: rgba(255, 255, 255, 0.8); */
 }
 .black-box p {
   margin-top: 20px;
@@ -37,10 +36,11 @@ body {
 }
 .black-box h1 {
   font-style: normal;
-  font-weight: 900;
+  font-weight: 200;
   font-size: 64px;
   line-height: 112px;
   text-align: center;
+  color: white;
 }
 .black-box h2 {
   font-weight: 200;
@@ -52,9 +52,9 @@ body {
   margin-top: 15px;
   width: 125px;
   height: 125px;
-  background-color: #838bc5;
   border-radius: 300px;
   margin-right: 8px;
+  border: 1px solid white;
 }
 .time {
   display: flex;
